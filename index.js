@@ -16,7 +16,7 @@ const app = express();
 
 connectToDatabase()
 app.use(cors({
-    origin:"http://localhost:5173", 
+    origin:"https://employeems-frontend.vercel.app", 
     credentials: true,
 }))
 app.use(express.json())
